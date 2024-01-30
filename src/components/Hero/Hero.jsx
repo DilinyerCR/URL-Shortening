@@ -1,10 +1,11 @@
 import styles from './Hero.module.css'
+import Illustration from '../../assets/illustration-working.svg'
 
 const Hero = () => {
     return (
         <div className={styles.HeroMainContainer}>
             <div className={styles.HeroImageContainer}>
-                <img src="/src/assets/illustration-working.svg" alt="" />
+                <img src={Illustration} alt="" />
             </div>
 
 
