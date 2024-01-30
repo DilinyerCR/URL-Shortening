@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 import { FaBars } from 'react-icons/fa';
+import Logo from '../../assets/logo.svg'
 
 const Header = () => {
 
@@ -19,7 +20,7 @@ const Header = () => {
   return (
     <div className={styles.HeaderContainer}>
       <div className={styles.ImageContainer}>
-        <img src="/src/assets/logo.svg" alt="" />
+        <img src={Logo} alt="" />
       </div>
 
       <div className={styles.MenuMainContainer} 
