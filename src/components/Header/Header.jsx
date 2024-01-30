@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 import { FaBars } from 'react-icons/fa';
-import Logo from '../../assets/logo.svg'
+import Logo from '../../assets/logo.svg';
 
 const Header = () => {
 
