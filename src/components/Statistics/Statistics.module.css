@@ -25,8 +25,21 @@
     padding: 0 30px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 90px;
     text-align: center;
+    position: relative;
+}
+
+.Line {
+    width: 8px;
+    height: 480px;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+    background-color: var(--Cyan);
+    z-index: 1;
 }
 
 .Box1,
@@ -37,6 +50,7 @@
     border-radius: 8px;
     text-align: center;
     position: relative;
+    z-index: 2;
 }
 
 .Box1 h3,
@@ -85,6 +99,13 @@
         flex-direction: row;
         gap: 20px;
     }
+
+    .Line {
+        width: 400px;
+        height: 8px;
+        top: 50%;
+        bottom: 50%;
+    }
 }
 
 
@@ -104,7 +125,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        gap: 40px;
+        gap: 30px;
     }
 
     .Box1,
@@ -131,6 +152,13 @@
         left: 20%;
         right: 50%;
         transform: translate(-50%, 0);
+    }
+
+    .Line {
+        width: 600px;
+        height: 8px;
+        top: 40%;
+        /* z-index: 5; */
     }
 }
 
