@@ -132,5 +132,5 @@
 
 .SocialMediaContainer a img:hover {
     width: 30px;
-    fill: #FF0;
+    fill: var(--Cyan);
 }
