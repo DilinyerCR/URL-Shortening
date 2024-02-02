@@ -21,7 +21,6 @@ const App = () => {
       <Boost />
 
       <Footer />
-
     </div>
   );
 }
